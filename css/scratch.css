@@ -1,0 +1,85 @@
+
+
+
+/* General Body Styling */
+body {
+    background-color: #e0f7ff; /* Custom light blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar Styling */
+  nav {
+    background-color: #cceeff;
+    padding: 10px;
+    text-align: left; /* Align nav bar to top-left */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: #004080;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Section */
+  .header {
+    margin-top: 60px; /* offset content from fixed nav */
+    padding: 30px 0;
+    background-color: #b3e0ff;
+    border-bottom: 2px solid #80cfff;
+  }
+  
+  /* Content Sections */
+  .section {
+    padding: 30px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #f0fbff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Center lists inside section */
+  .section ol,
+  .section ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  /* Image Styling */
+  #image-section img {
+    max-width: 90%;
+    height: auto;
+    border: 4px solid #99ddff;
+    border-radius: 10px;
+  }
+  
+  /* Links and Anchors */
+  a {
+    color: #006699;
+  }
+  
+  a:hover {
+    color: #004466;
+  }
+  
+  /* Iframe Styling */
+  iframe {
+    max-width: 100%;
+    border-radius: 10px;
+  }
